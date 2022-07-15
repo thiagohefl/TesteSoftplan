@@ -1,0 +1,62 @@
+unit ufTarefa1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.StdCtrls,
+  FireDAC.Stan.Intf, FireDAC.Stan.Option, FireDAC.Stan.Param,
+  FireDAC.Stan.Error, FireDAC.DatS, FireDAC.Phys.Intf, FireDAC.DApt.Intf,
+  FireDAC.Stan.Async, FireDAC.DApt, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client, uspQuery, Vcl.ComCtrls, Vcl.DBCtrls;
+
+type
+  TfTarefa1 = class(TForm)
+    pnSuperior: TPanel;
+    pnRodape: TPanel;
+    lbColunas: TLabel;
+    memColunas: TMemo;
+    lbTabelas: TLabel;
+    memTabelas: TMemo;
+    lbCondicoes: TLabel;
+    memCondicoes: TMemo;
+    btnGeraSQL: TButton;
+    memSQLGerado: TMemo;
+    spQuery: TspQuery;
+    lbSQLGerado: TLabel;
+    procedure btnGeraSQLClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  fTarefa1: TfTarefa1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfTarefa1.btnGeraSQLClick(Sender: TObject);
+var convertTab, convertCol, convertCond  : TstringList;
+begin
+   convertTab := TStringList.Create;
+   convertCol := TStringList.Create;
+   convertCond := TStringList.Create;
+
+   convertTab.AddStrings(memTabelas.Lines);
+   spQuery.spTabelas:=convertTab;
+
+//   convertLinhas.Clear;
+//   convertLinhas.AddStrings(memColunas.Lines);
+//   convertLinhas.Clear;
+//   spQuery.spColunas := convertLinhas;
+//   convertLinhas.AddStrings(memCondicoes.Lines);
+//   spQuery.spCondicoes := convertLinhas;
+
+   memSQLGerado.Lines.Add(spQuery.GeraSQL);
+   memSQLGerado.Refresh;
+end;
+
+end.

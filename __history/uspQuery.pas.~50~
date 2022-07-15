@@ -1,0 +1,47 @@
+unit uspQuery;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Data.DB, FireDAC.Comp.DataSet,
+  FireDAC.Comp.Client;
+
+type
+  TspQuery = class(TFDQuery)
+  private
+    { Private declarations }
+    FspCondicoes: TStringList;
+    FspColunas: TStringList;
+    FspTabelas: TStringList;
+  protected
+    { Protected declarations }
+  public
+    { Public declarations }
+    function GeraSQL  : string;
+  published
+    { Published declarations }
+    property spCondicoes: TStringList read FspCondicoes write FspCondicoes;
+    property spColunas: TStringList read FspColunas write FspColunas;
+    property spTabelas: TStringList read FspTabelas write FspTabelas;
+  end;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+  RegisterComponents('spComponentes', [TspQuery]);
+end;
+
+{ TspQuery }
+
+function TspQuery.GeraSQL : string;
+var SQL : string;
+begin
+   result := 'SELECT ' + spColunas.Text + ' FROM ' + spTabelas.ToString;
+   if Trim(spCondicoes.ToString) <> '' then
+      result := result + ' WHERE ' + spCondicoes.ToString;
+end;
+
+end.

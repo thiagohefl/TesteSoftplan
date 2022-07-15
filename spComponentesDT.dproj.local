@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/14 18:34:59.000.303,=rtl.dcp</Transaction>
+    <Transaction>2022/07/14 19:45:38.000.111,=rtl.dcp</Transaction>
+    <Transaction>2022/07/14 19:45:58.000.869,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\Usuario\Desktop\TesteSoftplan\spComponentesDT.dproj</Transaction>
+    <Transaction>2022/07/14 19:47:05.000.175,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 19:49:49.000.825,=designide.dcp</Transaction>
+    <Transaction>2022/07/14 19:50:00.000.939,=C:\Users\Usuario\Desktop\TesteSoftplan\Unit1.pas</Transaction>
+    <Transaction>2022/07/14 19:50:15.000.893,C:\Users\Usuario\Desktop\TesteSoftplan\Unit1.pas=C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas</Transaction>
+    <Transaction>2022/07/14 19:59:38.000.340,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=</Transaction>
+    <Transaction>2022/07/14 20:08:45.000.428,=C:\Users\Usuario\Desktop\TesteSoftplan\Unit1.pas</Transaction>
+    <Transaction>2022/07/14 20:08:55.000.326,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=C:\Users\Usuario\Desktop\TesteSoftplan\Unit1.pas</Transaction>
+    <Transaction>2022/07/14 20:20:34.000.681,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 20:21:29.000.476,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=</Transaction>
+    <Transaction>2022/07/14 20:25:47.000.732,=C:\Users\Usuario\Desktop\TesteSoftplan\Unit1.pas</Transaction>
+    <Transaction>2022/07/14 20:25:55.000.223,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=C:\Users\Usuario\Desktop\TesteSoftplan\Unit1.pas</Transaction>
+    <Transaction>2022/07/14 20:28:56.000.191,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=</Transaction>
+    <Transaction>2022/07/14 20:31:38.000.037,=C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas</Transaction>
+    <Transaction>2022/07/14 20:36:33.000.786,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 20:40:00.000.619,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 20:50:41.000.040,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 20:51:10.000.719,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=</Transaction>
+    <Transaction>2022/07/14 21:04:09.000.254,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=</Transaction>
+    <Transaction>2022/07/14 21:09:34.000.845,=C:\Users\Usuario\Desktop\TesteSoftplan\bin\spComponentes.bpl</Transaction>
+    <Transaction>2022/07/14 21:10:02.000.638,=C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas</Transaction>
+    <Transaction>2022/07/14 21:11:39.000.505,C:\Users\Usuario\Desktop\TesteSoftplan\bin\spComponentes.bpl=</Transaction>
+    <Transaction>2022/07/14 21:12:14.000.098,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 21:21:11.000.134,=spComponentes.dcp</Transaction>
+    <Transaction>2022/07/14 21:21:19.000.419,C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas=</Transaction>
+    <Transaction>2022/07/15 11:30:48.255,=C:\Users\Usuario\Desktop\TesteSoftplan\uspComponentesRegistro.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,17 @@
+unit uspComponentesRegistro;
+
+interface
+
+uses System.SysUtils, System.Classes;
+
+procedure Register;
+
+implementation
+
+procedure Register;
+begin
+   RegisterComponents('spComponentes', [uspQuery]);
+end;
+
+
+end.

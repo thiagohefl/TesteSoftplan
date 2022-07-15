@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/07/14 18:34:59.000.303,=rtl.dcp</Transaction>
+    <Transaction>2022/07/14 18:40:20.000.300,=rtl.dcp</Transaction>
+    <Transaction>2022/07/14 18:40:34.000.934,C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Package1.dproj=C:\Users\Usuario\Desktop\TesteSoftplan\spComponentes.dproj</Transaction>
+    <Transaction>2022/07/14 19:11:11.000.983,=C:\Users\Usuario\Desktop\TesteSoftplan\uspQuery.pas</Transaction>
+    <Transaction>2022/07/14 19:11:12.000.091,=dbrtl.dcp</Transaction>
+    <Transaction>2022/07/14 19:11:12.000.498,=xmlrtl.dcp</Transaction>
+    <Transaction>2022/07/14 19:11:12.000.274,=FireDACCommonDriver.dcp</Transaction>
+    <Transaction>2022/07/14 19:11:12.000.200,=FireDAC.dcp</Transaction>
+    <Transaction>2022/07/14 19:11:12.000.353,=FireDACCommon.dcp</Transaction>
+    <Transaction>2022/07/14 21:17:17.000.687,C:\Users\Usuario\Desktop\TesteSoftplan\uspQuery.pas=</Transaction>
+    <Transaction>2022/07/14 21:18:38.000.863,=C:\Users\Usuario\Desktop\TesteSoftplan\uspQuery.pas</Transaction>
+  </Transactions>
+</BorlandProject>
